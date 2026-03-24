@@ -1,0 +1,6 @@
+path: F:/bach2/Arabic-Handwritten-Characters-Recognition-using-CNN/my_dataset
+train: train/images
+val: val/images
+nc: 1
+names:
+  - character
