@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8s.pt
-data: F:\newbach\Arabic-Handwritten-Characters-Recognition-using-CNN\my_dataset\data.yaml
+data: f:\newbach\Arabic-Handwritten-Characters-Recognition-using-CNN\my_dataset\data.yaml
 epochs: 200
 time: null
 patience: 40
@@ -12,7 +12,7 @@ save_period: -1
 cache: false
 device: cpu
 workers: 0
-project: F:\newbach\Arabic-Handwritten-Characters-Recognition-using-CNN\my_yolo_v3
+project: f:\newbach\Arabic-Handwritten-Characters-Recognition-using-CNN\my_yolo_v3
 name: char_detector_30cls
 exist_ok: true
 pretrained: true
