@@ -1,6 +1,6 @@
-path: /kaggle/input/datasets/hagarmohamedlotfy/handwritten-arabic-dataset
-train: train/train/images
-val: val/val/images
+path: f:/newbach/Arabic-Handwritten-Characters-Recognition-using-CNN/my_dataset
+train: train/images
+val: val/images
 nc: 30
 names:
 - ain
@@ -11,6 +11,7 @@ names:
 - feh
 - ghain
 - hah
+- hamza
 - heh
 - jeem
 - kaf
@@ -32,4 +33,3 @@ names:
 - yeh
 - zah
 - zain
-- hamza
